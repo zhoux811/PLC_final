@@ -1,0 +1,669 @@
+C:\Users\steph\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/steph/PycharmProjects/pythonProject/PLCproject2/fq7_2.py
+
+
+
+line_n: 1 : (a.multi(b)).sub(1).add(c)
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 2		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 3		current token type:special_char
+							current token:	multi		 current pos: 8		current token type:func_name
+							current token:	(		 current pos: 9		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	b		 current pos: 10		current token type:var
+							current token:	)		 current pos: 11		current token type:parenthesis
+							current token:	)		 current pos: 12		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 13		current token type:special_char
+							current token:	sub		 current pos: 16		current token type:func_name
+							current token:	(		 current pos: 17		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	1		 current pos: 18		current token type:num
+							current token:	)		 current pos: 19		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 20		current token type:special_char
+							current token:	add		 current pos: 23		current token type:func_name
+							current token:	(		 current pos: 24		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	c		 current pos: 25		current token type:var
+error. syntax
+							current token:	)		 current pos: 26		current token type:parenthesis
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+
+
+
+line_n: 2 : (a.multi((b.sub(1)))).div((c.mod(d)))
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 2		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 3		current token type:special_char
+							current token:	multi		 current pos: 8		current token type:func_name
+							current token:	(		 current pos: 9		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	(		 current pos: 10		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	b		 current pos: 11		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 12		current token type:special_char
+							current token:	sub		 current pos: 15		current token type:func_name
+							current token:	(		 current pos: 16		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	1		 current pos: 17		current token type:num
+							current token:	)		 current pos: 18		current token type:parenthesis
+							current token:	)		 current pos: 19		current token type:parenthesis
+							current token:	)		 current pos: 20		current token type:parenthesis
+							current token:	)		 current pos: 21		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 22		current token type:special_char
+							current token:	div		 current pos: 25		current token type:func_name
+							current token:	(		 current pos: 26		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	(		 current pos: 27		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	c		 current pos: 28		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 29		current token type:special_char
+							current token:	mod		 current pos: 32		current token type:func_name
+							current token:	(		 current pos: 33		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	d		 current pos: 34		current token type:var
+							current token:	)		 current pos: 35		current token type:parenthesis
+							current token:	)		 current pos: 36		current token type:parenthesis
+error. syntax
+							current token:	)		 current pos: 37		current token type:parenthesis
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+
+
+
+line_n: 3 : (a.sub(b)).div( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) )
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 2		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 3		current token type:special_char
+							current token:	sub		 current pos: 6		current token type:func_name
+							current token:	(		 current pos: 7		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	b		 current pos: 8		current token type:var
+							current token:	)		 current pos: 9		current token type:parenthesis
+							current token:	)		 current pos: 10		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 11		current token type:special_char
+							current token:	div		 current pos: 14		current token type:func_name
+							current token:	(		 current pos: 15		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 16		current token type:special_char
+		Enter <sub_expr>
+							current token:	c		 current pos: 17		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 18		current token type:special_char
+							current token:	bitwise_and		 current pos: 29		current token type:func_name
+							current token:	(		 current pos: 30		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 31		current token type:special_char
+	Enter big <expr>
+							current token:	(		 current pos: 32		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	d		 current pos: 33		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 34		current token type:special_char
+							current token:	multi		 current pos: 39		current token type:func_name
+							current token:	(		 current pos: 40		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	e		 current pos: 41		current token type:var
+							current token:	)		 current pos: 42		current token type:parenthesis
+							current token:	)		 current pos: 43		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 44		current token type:special_char
+							current token:	div		 current pos: 47		current token type:func_name
+							current token:	(		 current pos: 48		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 49		current token type:special_char
+		Enter <sub_expr>
+							current token:	a		 current pos: 50		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 51		current token type:special_char
+							current token:	sub		 current pos: 54		current token type:func_name
+							current token:	(		 current pos: 55		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	3		 current pos: 56		current token type:num
+							current token:	)		 current pos: 57		current token type:parenthesis
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 64		current token type:special_char
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+
+
+
+line_n: 4 : ((a.add(b)).smaller_equal_than(c)).multi( d.larger_than( b.sub(e) ) )
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+	Enter big <expr>
+							current token:	(		 current pos: 2		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 3		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 4		current token type:special_char
+							current token:	add		 current pos: 7		current token type:func_name
+							current token:	(		 current pos: 8		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	b		 current pos: 9		current token type:var
+							current token:	)		 current pos: 10		current token type:parenthesis
+							current token:	)		 current pos: 11		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 12		current token type:special_char
+							current token:	smaller_equal_than		 current pos: 30		current token type:func_name
+							current token:	(		 current pos: 31		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	c		 current pos: 32		current token type:var
+							current token:	)		 current pos: 33		current token type:parenthesis
+							current token:	)		 current pos: 34		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 35		current token type:special_char
+							current token:	multi		 current pos: 40		current token type:func_name
+							current token:	(		 current pos: 41		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 42		current token type:special_char
+		Enter <sub_expr>
+							current token:	d		 current pos: 43		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 44		current token type:special_char
+							current token:	larger_than		 current pos: 55		current token type:func_name
+							current token:	(		 current pos: 56		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 57		current token type:special_char
+		Enter <sub_expr>
+							current token:	b		 current pos: 58		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 59		current token type:special_char
+							current token:	sub		 current pos: 62		current token type:func_name
+							current token:	(		 current pos: 63		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	e		 current pos: 64		current token type:var
+							current token:	)		 current pos: 65		current token type:parenthesis
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+syntax error... or EOF reached
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 70		current token type:special_char
+	Exit big <expr>
+
+
+
+line_n: 5 : ((a.negative(1)).logical_or(c)).assign( d.logical_and(e) )
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+	Enter big <expr>
+							current token:	(		 current pos: 2		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 3		current token type:var
+			Enter <fac>
+error. syntax
+							current token:	.		 current pos: 4		current token type:special_char
+							current token:	.		 current pos: 5		current token type:special_char
+error. syntax
+							current token:	e		 current pos: 6		current token type:var
+				Enter <func_para>
+	Enter big <expr>
+							current token:	e		 current pos: 7		current token type:var
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 8		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 9		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 10		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+							current token:	a		 current pos: 11		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+							current token:	e		 current pos: 12		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+	Enter big <expr>
+							current token:	(		 current pos: 13		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	1		 current pos: 14		current token type:num
+							current token:	)		 current pos: 15		current token type:parenthesis
+		Exit <sub_expr>
+							current token:	)		 current pos: 16		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 17		current token type:special_char
+							current token:	logical_or		 current pos: 27		current token type:func_name
+							current token:	(		 current pos: 28		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	c		 current pos: 29		current token type:var
+							current token:	)		 current pos: 30		current token type:parenthesis
+							current token:	)		 current pos: 31		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 32		current token type:special_char
+							current token:	assign		 current pos: 38		current token type:func_name
+							current token:	(		 current pos: 39		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 40		current token type:special_char
+		Enter <sub_expr>
+							current token:	d		 current pos: 41		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 42		current token type:special_char
+							current token:	logical_and		 current pos: 53		current token type:func_name
+							current token:	(		 current pos: 54		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	e		 current pos: 55		current token type:var
+							current token:	)		 current pos: 56		current token type:parenthesis
+syntax error... or EOF reached
+syntax error... or EOF reached
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 59		current token type:special_char
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 60		current token type:special_char
+	Exit big <expr>
+
+
+
+line_n: 6 : ((a.larger_than(b)).xor(c)).logical_or( (d.smaller_equal_than(17)) )
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+	Enter big <expr>
+							current token:	(		 current pos: 2		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 3		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 4		current token type:special_char
+							current token:	larger_than		 current pos: 15		current token type:func_name
+							current token:	(		 current pos: 16		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	b		 current pos: 17		current token type:var
+							current token:	)		 current pos: 18		current token type:parenthesis
+							current token:	)		 current pos: 19		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 20		current token type:special_char
+							current token:	xor		 current pos: 23		current token type:func_name
+							current token:	(		 current pos: 24		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	c		 current pos: 25		current token type:var
+							current token:	)		 current pos: 26		current token type:parenthesis
+							current token:	)		 current pos: 27		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 28		current token type:special_char
+							current token:	logical_or		 current pos: 38		current token type:func_name
+							current token:	(		 current pos: 39		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	 		 current pos: 40		current token type:special_char
+	Enter big <expr>
+							current token:	(		 current pos: 41		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	d		 current pos: 42		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 43		current token type:special_char
+							current token:	smaller_equal_than		 current pos: 61		current token type:func_name
+							current token:	(		 current pos: 62		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	17		 current pos: 64		current token type:num
+							current token:	)		 current pos: 65		current token type:parenthesis
+							current token:	)		 current pos: 66		current token type:parenthesis
+syntax error... or EOF reached
+syntax error... or EOF reached
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 69		current token type:special_char
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	 		 current pos: 70		current token type:special_char
+	Exit big <expr>
+
+
+
+line_n: 7 : (a.add((b))).negative(1)
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 2		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 3		current token type:special_char
+							current token:	add		 current pos: 6		current token type:func_name
+							current token:	(		 current pos: 7		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	(		 current pos: 8		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	b		 current pos: 9		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+							current token:	)		 current pos: 10		current token type:parenthesis
+							current token:	)		 current pos: 11		current token type:parenthesis
+							current token:	)		 current pos: 12		current token type:parenthesis
+			Enter <fac>
+error. syntax
+							current token:	.		 current pos: 13		current token type:special_char
+							current token:	.		 current pos: 14		current token type:special_char
+error. syntax
+							current token:	e		 current pos: 15		current token type:var
+				Enter <func_para>
+	Enter big <expr>
+							current token:	e		 current pos: 16		current token type:var
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 17		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 18		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+error. syntax
+							current token:	a		 current pos: 19		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+							current token:	a		 current pos: 20		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+		Enter <sub_expr>
+							current token:	e		 current pos: 21		current token type:var
+			Enter <fac>
+			Exit <fac>
+		Exit <sub_expr>
+	Enter big <expr>
+							current token:	(		 current pos: 22		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	1		 current pos: 23		current token type:num
+error. syntax
+							current token:	)		 current pos: 24		current token type:parenthesis
+		Exit <sub_expr>
+	Exit big <expr>
+error. syntax
+							current token:	)		 current pos: 25		current token type:parenthesis
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+
+
+
+line_n: 8 : (a.add((b.multi(c)))).add(d)
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	(		 current pos: 1		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 2		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 3		current token type:special_char
+							current token:	add		 current pos: 6		current token type:func_name
+							current token:	(		 current pos: 7		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	(		 current pos: 8		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	b		 current pos: 9		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 10		current token type:special_char
+							current token:	multi		 current pos: 15		current token type:func_name
+							current token:	(		 current pos: 16		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	c		 current pos: 17		current token type:var
+							current token:	)		 current pos: 18		current token type:parenthesis
+							current token:	)		 current pos: 19		current token type:parenthesis
+							current token:	)		 current pos: 20		current token type:parenthesis
+							current token:	)		 current pos: 21		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 22		current token type:special_char
+							current token:	add		 current pos: 25		current token type:func_name
+							current token:	(		 current pos: 26		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	d		 current pos: 27		current token type:var
+error. syntax
+							current token:	)		 current pos: 28		current token type:parenthesis
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+
+
+
+line_n: 9 : e.assign((a.increment(1)).increment(1) )
+							current token:			 current pos: 0		current token type:
+							 pointer initialized; begin parsing
+
+
+	Enter big <expr>
+							current token:	e		 current pos: 1		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 2		current token type:special_char
+							current token:	assign		 current pos: 8		current token type:func_name
+							current token:	(		 current pos: 9		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	(		 current pos: 10		current token type:parenthesis
+		Enter <sub_expr>
+							current token:	a		 current pos: 11		current token type:var
+			Enter <fac>
+							current token:	.		 current pos: 12		current token type:special_char
+							current token:	increment		 current pos: 21		current token type:func_name
+							current token:	(		 current pos: 22		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	1		 current pos: 23		current token type:num
+							current token:	)		 current pos: 24		current token type:parenthesis
+							current token:	)		 current pos: 25		current token type:parenthesis
+			Enter <fac>
+							current token:	.		 current pos: 26		current token type:special_char
+							current token:	increment		 current pos: 35		current token type:func_name
+							current token:	(		 current pos: 36		current token type:parenthesis
+				Enter <func_para>
+	Enter big <expr>
+							current token:	1		 current pos: 37		current token type:num
+							current token:	)		 current pos: 38		current token type:parenthesis
+syntax error... or EOF reached
+syntax error... or EOF reached
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+		Exit <sub_expr>
+	Exit big <expr>
+				Exit <func_para>
+			Exit <fac>
+	Exit big <expr>
+
+Process finished with exit code 0

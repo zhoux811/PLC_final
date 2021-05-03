@@ -1,0 +1,97 @@
+C:\Users\steph\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/steph/PycharmProjects/pythonProject/PLCproject2/fq8.py
+
+
+
+line_n: 1 : (a.multi(b)).sub(1).add(c)
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"(b)).sub(1).add(c" result/value MUST be NON boolean value
+	"(1).add(c" result/value MUST be NON boolean value
+	"(c" result/value MUST be NON boolean value
+
+
+
+line_n: 2 : (a.multi((b.sub(1)))).div((c.mod(d)))
+	less than one assignment in the expression. assignment check passed
+	"(c.mod(d)))" MUST NOT equal to 0
+	"((b.sub(1)))).div((c.mod(d))" result/value MUST be NON boolean value
+	"(1)))).div((c.mod(d))" result/value MUST be NON boolean value
+	"((c.mod(d))" result/value MUST be NON boolean value
+	"(d))" result/value MUST be NON boolean value
+
+
+
+line_n: 3 : (a.sub(b)).div( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) )
+	less than one assignment in the expression. assignment check passed
+	" c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) )" MUST NOT equal to 0
+	"(b)).div( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+	"( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+	"( (d.multi(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+	"(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+	"( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+	"(b)).div( c.bitwise_and( (d.multi(e)).div( a.sub(3) ) ) " result/value MUST be NON boolean value
+
+
+
+line_n: 4 : ((a.add(b)).smaller_equal_than(c)).multi( d.larger_than( b.sub(e) ) )
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"(b)).smaller_equal_than(c)).multi( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"(c)).multi( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"( b.sub(e) ) " result/value MUST be NON boolean value
+	"(e) ) " result/value MUST be NON boolean value
+
+
+
+line_n: 5 : ((a.add(b)).larger_than(c)).multi( d.larger_than( b.sub(e) ) )
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"(b)).larger_than(c)).multi( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"(c)).multi( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"(c)).multi( d.larger_than( b.sub(e) ) " result/value MUST be NON boolean value
+	"(e) ) " result/value MUST be NON boolean value
+
+
+
+line_n: 6 : ((a.negative(1)).logical_or(c)).assign( d.logical_and(e) )
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"(c)).assign( d.logical_and(e) " result/value MUST be boolean value
+	"(e) " result/value MUST be boolean value
+
+
+
+line_n: 7 : ((a.larger_than(b)).xor(c)).logical_or( (d.smaller_equal_than(17)) )
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"( (d.smaller_equal_than(17)) " result/value MUST be boolean value
+	"(b)).xor(c)).logical_or( (d.smaller_equal_than(17)) " result/value MUST be NON boolean value
+	"(c)).logical_or( (d.smaller_equal_than(17)) " result/value MUST be NON boolean value
+	"(17)) " result/value MUST be NON boolean value
+
+
+
+line_n: 8 : (a.add((b))).negative(1)
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"((b))).negative(1" result/value MUST be NON boolean value
+
+
+
+line_n: 9 : (a.add((b.multi(c)))).add(d)
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	"((b.multi(c)))).add(d" result/value MUST be NON boolean value
+	"(c)))).add(d" result/value MUST be NON boolean value
+	"((b.multi(c)))).add(d" result/value MUST be NON boolean value
+
+
+
+line_n: 10 : e.assign((a.increment(1)).increment(1) )
+	less than one assignment in the expression. assignment check passed
+	no division in this expr. zero division check passed
+	the first increment is on a variable. unary in/decrement check passed
+
+Process finished with exit code 0
